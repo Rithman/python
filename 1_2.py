@@ -17,7 +17,7 @@ for i in cubes_list:
     if i_sum % 7 == 0:
         total_sum += tmp
 
-print(total_sum)
+print(f' задание а. ответ: {total_sum}')
 
 # b, c.
 total_sum = 0
@@ -33,4 +33,4 @@ for i in cubes_list:
     if i_sum % 7 == 0:
         total_sum += tmp
 
-print(total_sum)
+print(f' задание b и с. ответ: {total_sum}')
